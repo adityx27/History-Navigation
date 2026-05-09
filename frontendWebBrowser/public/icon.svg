@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" fill="none">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #0f0f0f; }
+      .fg { fill: #ffffff; }
+      .muted { stroke: rgba(255, 255, 255, 0.35); }
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0f0f0f; }
+      .fg { fill: #ffffff; }
+      .muted { stroke: rgba(255, 255, 255, 0.35); }
+    }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="180" height="180" rx="40" />
+
+  <!-- Simple "history navigation" icon: back/forward + clock -->
+  <path class="muted" d="M90 46c24.3 0 44 19.7 44 44s-19.7 44-44 44-44-19.7-44-44" stroke-width="10" stroke-linecap="round" />
+  <path class="fg" d="M46 90l18-18v36L46 90z" />
+  <path class="fg" d="M134 90l-18 18V72l18 18z" />
+  <path class="fg" d="M90 66c1.9 0 3.5 1.6 3.5 3.5V94l15.2 9.1c1.7 1 2.2 3.1 1.2 4.8-1 1.7-3.1 2.2-4.8 1.2L87.5 98.8c-1.1-.6-1.8-1.8-1.8-3.1V69.5c0-1.9 1.6-3.5 3.5-3.5z" />
+</svg>

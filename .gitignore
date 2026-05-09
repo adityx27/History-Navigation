@@ -1,0 +1,7 @@
+.env
+node_modules/
+frontendWebBrowser/node_modules/
+frontendWebBrowser/.next/
+frontendWebBrowser/out/
+*.log
+.DS_Store
